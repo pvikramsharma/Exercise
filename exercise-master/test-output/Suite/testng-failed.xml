@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Exercise Test(failed)">
+    <classes>
+      <class name="com.exercise.Test.Test1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.exercise.Test.Test1 -->
+      <class name="com.exercise.Test.Test2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.exercise.Test.Test2 -->
+      <class name="com.exercise.Test.Test4">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.exercise.Test.Test4 -->
+      <class name="com.exercise.Test.Test3">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="testColorFailure"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.exercise.Test.Test3 -->
+    </classes>
+  </test> <!-- Exercise Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

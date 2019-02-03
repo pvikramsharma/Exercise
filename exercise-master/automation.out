@@ -1,0 +1,20 @@
+2019-02-03 21:52:21 INFO  AddProductCategoryPO:60 - doing mouse over on :Faded
+2019-02-03 21:52:21 INFO  AddProductCategoryPO:88 - Click on the quick view of first test product
+2019-02-03 21:52:23 INFO  AddProductCategoryPO:77 - clickin on add to cart
+2019-02-03 21:52:23 INFO  AddProductCategoryPO:82 - Continue Shopping
+2019-02-03 21:52:24 INFO  AddProductCategoryPO:60 - doing mouse over on :Blouse
+2019-02-03 21:52:24 INFO  AddProductCategoryPO:94 - Click on the quick view of the second test product
+2019-02-03 21:52:25 INFO  AddProductCategoryPO:77 - clickin on add to cart
+2019-02-03 21:52:27 INFO  ShoppinCartSummaryPO:95 - clicking on : Proceed to checkout
+2019-02-03 21:52:29 INFO  ShoppinCartSummaryPO:90 - clicking on : Proceed to checkout
+2019-02-03 21:52:30 INFO  LoginPO:47 - entering email address....pvikramsharma@abc.com
+2019-02-03 21:52:30 INFO  LoginPO:52 - entering password....BJSSTest
+2019-02-03 21:52:31 INFO  LoginPO:57 - clicking on submit button...
+2019-02-03 21:52:32 INFO  ShoppinCartSummaryPO:100 - clicking on : Proceed to checkout
+2019-02-03 21:52:33 INFO  ShoppinCartSummaryPO:85 - Agree to Terms and Condition 
+2019-02-03 21:52:33 INFO  ShoppinCartSummaryPO:100 - clicking on : Proceed to checkout
+2019-02-03 21:52:34 INFO  ShoppinCartSummaryPO:80 - Click on Pay by Wire 
+2019-02-03 21:52:34 INFO  ShoppinCartSummaryPO:75 - Confirm the order 
+2019-02-03 21:52:36 INFO  ShoppinCartSummaryPO:67 - Get the Order Id
+2019-02-03 21:52:36 INFO  ShoppinCartSummaryPO:70 - The orderId for this Order is JCRHNTSAC
+2019-02-03 21:52:36 INFO  MyAccountPO:31 - Signing out of the page

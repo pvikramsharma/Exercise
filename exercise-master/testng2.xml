@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Testing" verbose="1">
+	<listeners>
+		<listener class-name="com.exercise.helper.Logger.ExtentReporterNG"/>
+	</listeners>
+
+	<test thread-count="1" name="Exercise Test">
+    <classes>
+      <class name="com.exercise.Test.Test1"/>
+          <class name="com.exercise.Test.Test2"/>
+              <class name="com.exercise.Test.Test3"/>
+                  <class name="com.exercise.Test.Test4"/>
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite>

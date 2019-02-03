@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing" duration-ms="76015" started-at="2019-02-03T21:52:13Z" finished-at="2019-02-03T21:53:29Z">
+    <groups>
+    </groups>
+    <test name="Exercise Test" duration-ms="76015" started-at="2019-02-03T21:52:13Z" finished-at="2019-02-03T21:53:29Z">
+      <class name="com.exercise.Test.Test1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.exercise.Test.Test1@3c72f59f]" name="launchBrowser" is-config="true" duration-ms="3506" started-at="2019-02-03T21:52:13Z" finished-at="2019-02-03T21:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.exercise.Test.Test1@3c72f59f]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-02-03T21:52:17Z" finished-at="2019-02-03T21:52:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.exercise.Test.Test1.AddToShoppingCart() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddToShoppingCart()[pri:0, instance:com.exercise.Test.Test1@3c72f59f]" name="AddToShoppingCart" duration-ms="21242" started-at="2019-02-03T21:52:17Z" finished-at="2019-02-03T21:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToShoppingCart -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.exercise.Test.Test1@3c72f59f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-02-03T21:52:38Z" finished-at="2019-02-03T21:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddToShoppingCart status=SUCCESS method=Test1.AddToShoppingCart()[pri:0, instance:com.exercise.Test.Test1@3c72f59f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.exercise.Test.Test1@3c72f59f]" name="endTest" is-config="true" duration-ms="1636" started-at="2019-02-03T21:52:38Z" finished-at="2019-02-03T21:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.exercise.Test.Test1 -->
+      <class name="com.exercise.Test.Test2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.exercise.Test.Test2@60dcc9fe]" name="launchBrowser" is-config="true" duration-ms="2350" started-at="2019-02-03T21:52:39Z" finished-at="2019-02-03T21:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.exercise.Test.Test2@60dcc9fe]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-03T21:52:42Z" finished-at="2019-02-03T21:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.exercise.Test.Test2.testMessageSaving() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMessageSaving()[pri:0, instance:com.exercise.Test.Test2@60dcc9fe]" name="testMessageSaving" duration-ms="12877" started-at="2019-02-03T21:52:42Z" finished-at="2019-02-03T21:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMessageSaving -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.exercise.Test.Test2@60dcc9fe]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-03T21:52:55Z" finished-at="2019-02-03T21:52:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMessageSaving status=SUCCESS method=Test2.testMessageSaving()[pri:0, instance:com.exercise.Test.Test2@60dcc9fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.exercise.Test.Test2@60dcc9fe]" name="endTest" is-config="true" duration-ms="1082" started-at="2019-02-03T21:52:55Z" finished-at="2019-02-03T21:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.exercise.Test.Test2 -->
+      <class name="com.exercise.Test.Test3">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.exercise.Test.Test3@222114ba]" name="launchBrowser" is-config="true" duration-ms="2369" started-at="2019-02-03T21:52:56Z" finished-at="2019-02-03T21:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.exercise.Test.Test3@222114ba]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-03T21:52:58Z" finished-at="2019-02-03T21:52:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.exercise.Test.Test3.testColorFailure() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testColorFailure()[pri:0, instance:com.exercise.Test.Test3@222114ba]" name="testColorFailure" duration-ms="10010" started-at="2019-02-03T21:52:58Z" description="Test to check the color of the already ordered product and making it fail" finished-at="2019-02-03T21:53:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Black] but found [ : Orange]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Black] but found [ : Orange]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.exercise.Test.Test3.testColorFailure(Test3.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColorFailure -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.exercise.Test.Test3@222114ba]" name="afterMethod" is-config="true" duration-ms="12126" started-at="2019-02-03T21:53:08Z" finished-at="2019-02-03T21:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testColorFailure status=FAILURE method=Test3.testColorFailure()[pri:0, instance:com.exercise.Test.Test3@222114ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.exercise.Test.Test3@222114ba]" name="endTest" is-config="true" duration-ms="1165" started-at="2019-02-03T21:53:20Z" finished-at="2019-02-03T21:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.exercise.Test.Test3 -->
+      <class name="com.exercise.Test.Test4">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="launchBrowser" is-config="true" duration-ms="2347" started-at="2019-02-03T21:53:21Z" finished-at="2019-02-03T21:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-02-03T21:53:24Z" finished-at="2019-02-03T21:53:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.exercise.Test.Test4.testingOfDELETE()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testingOfDELETE()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="testingOfDELETE" duration-ms="1894" started-at="2019-02-03T21:53:24Z" finished-at="2019-02-03T21:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingOfDELETE -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-02-03T21:53:26Z" finished-at="2019-02-03T21:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testingOfDELETE status=SUCCESS method=Test4.testingOfDELETE()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-03T21:53:26Z" finished-at="2019-02-03T21:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.exercise.Test.Test4.testingOfGET()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testingOfGET()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="testingOfGET" duration-ms="575" started-at="2019-02-03T21:53:26Z" finished-at="2019-02-03T21:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingOfGET -->
+        <test-method status="PASS" signature="testingOfPOST()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="testingOfPOST" duration-ms="969" started-at="2019-02-03T21:53:26Z" finished-at="2019-02-03T21:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingOfPOST -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-03T21:53:26Z" finished-at="2019-02-03T21:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.exercise.Test.Test4.testingOfPOST()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-03T21:53:26Z" finished-at="2019-02-03T21:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testingOfGET status=SUCCESS method=Test4.testingOfGET()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-02-03T21:53:27Z" finished-at="2019-02-03T21:53:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.exercise.Test.Test4.testingOfPUT()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-03T21:53:27Z" finished-at="2019-02-03T21:53:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testingOfPOST status=SUCCESS method=Test4.testingOfPOST()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testingOfPUT()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="testingOfPUT" duration-ms="552" started-at="2019-02-03T21:53:27Z" finished-at="2019-02-03T21:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingOfPUT -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-03T21:53:28Z" finished-at="2019-02-03T21:53:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testingOfPUT status=SUCCESS method=Test4.testingOfPUT()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.exercise.Test.Test4@16e7dcfd]" name="endTest" is-config="true" duration-ms="1275" started-at="2019-02-03T21:53:28Z" finished-at="2019-02-03T21:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.exercise.Test.Test4 -->
+    </test> <!-- Exercise Test -->
+  </suite> <!-- Testing -->
+</testng-results>
